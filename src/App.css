@@ -1,1 +1,8 @@
-@import "~bootstrap/scss/bootstrap";
+.App-header {
+  margin-top: 30px;
+}
+.Emoji-books {
+  font-size: 300px;
+  display: block;
+  margin: 0 auto;
+}

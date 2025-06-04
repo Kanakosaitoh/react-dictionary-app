@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
 export default function Dictionary() {
-  const [keyWord, setKeyword] = useState("");
+  const [keyword, setKeyword] = useState("");
 
   function search(event) {
     event.preventDefault();
+    alert(`${keyword}`);
   }
 
   function changeKeyword(event) {

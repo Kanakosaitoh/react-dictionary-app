@@ -1,18 +1,23 @@
 import React from "react";
+import Synonyms from "./Synonyms";
+import Definition from "./Definition";
+import Example from "./Example";
 
 export default function Results(props) {
   console.log(props.results);
   if (props.results) {
     return (
       <div className="Results">
-        <h2>{props.results.antonyms}</h2>
-        <h2>
-          <em>{props.results.partOfSpeech}</em>
-        </h2>
-        <h2>
-          Meanings:
-          <p> {props.results.definition}</p>
-        </h2>
+        <p>
+          <em> {props.results.partOfSpeech}</em>
+          <br />
+          <Definition definition={props.results.definition} />
+          <br />
+          <Example example={props.results.example} />
+          <br />
+          <strong>Synonyms:</strong>
+          <Synonyms synonyms={props.results.synonyms} />
+        </p>
       </div>
     );
   } else {

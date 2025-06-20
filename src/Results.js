@@ -11,8 +11,11 @@ export default function Results(props) {
         <p>
           <em> {props.results.partOfSpeech}</em>
           <br />
+          <strong>Definition:</strong>
+          <br />
           <Definition definition={props.results.definition} />
           <br />
+          <strong>Examples:</strong>
           <Example example={props.results.example} />
           <br />
           <strong>Synonyms:</strong>

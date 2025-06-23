@@ -1,0 +1,25 @@
+.Dictionary {
+  background: teal;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.3);
+}
+h2 {
+  color: white;
+}
+.Dictionary .inputInfo {
+  width: 80%;
+  border-radius: 5px;
+  border: 1 solid #ddd;
+  padding: 6px 10px;
+}
+.Dictionary hint {
+  font-size: small;
+}
+.Dictionary .search-btn {
+  width: 15%;
+  border-radius: 5px;
+  border: 1 solid #ddd;
+  padding: 6px 10px;
+}

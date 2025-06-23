@@ -6,3 +6,10 @@
   display: block;
   margin: 0 auto;
 }
+body {
+  max-width: 600px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 5px;
+}

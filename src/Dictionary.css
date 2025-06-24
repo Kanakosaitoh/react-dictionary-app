@@ -5,8 +5,10 @@
   border-radius: 10px;
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.3);
 }
-h2 {
+.Dictionary h2 {
   color: white;
+  font-size: 36px;
+  margin-top: 10px;
 }
 .Dictionary .inputInfo {
   width: 80%;

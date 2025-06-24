@@ -12,7 +12,7 @@ export default function App() {
           <img className="Emoji-books img-fluid mt-5" src={logo} alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Dawn" />
         </main>
       </div>
     </div>

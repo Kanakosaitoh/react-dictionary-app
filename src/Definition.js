@@ -3,12 +3,7 @@ import "./Definition.css";
 export default function Definition(props) {
   console.log(props.definition);
   if (props.definition) {
-    return (
-      <div className="Definition">
-        <strong>Definition: </strong>
-        {props.definition}
-      </div>
-    );
+    return <div className="Definition">{props.definition}</div>;
   } else {
     return null;
   }

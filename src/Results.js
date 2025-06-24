@@ -13,15 +13,14 @@ export default function Results(props) {
         <p>
           <section>
             <Phonetic phonetic={props.results.phonetic} />
-            <em> {props.results.partOfSpeech}</em>
-          </section>
-          <section>
+            <em>
+              {" "}
+              <strong>{props.results.partOfSpeech}</strong>
+            </em>
+
             <Definition definition={props.results.definition} />
-          </section>
-          <section>
             <Example example={props.results.example} />
-          </section>
-          <section>
+
             <Synonyms synonyms={props.results.synonyms} />
           </section>
         </p>

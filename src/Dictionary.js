@@ -40,6 +40,7 @@ export default function Dictionary(props) {
               onChange={handleKeywordChange}
               className="inputInfo"
               autoocus
+              defaultValue={props.defaultKeyword}
             />
             <input type="submit" value="Search" className="search-btn m-2 " />
           </form>

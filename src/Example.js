@@ -5,12 +5,7 @@ export default function Example(props) {
   if (props.example) {
     return (
       <div className="Example">
-        <section>
-          <strong>Examples:</strong>
-          <ul>
-            <li>{props.example}</li>
-          </ul>
-        </section>
+        <section>{props.example}</section>
       </div>
     );
   } else {
